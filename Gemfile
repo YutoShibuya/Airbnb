@@ -40,6 +40,13 @@ gem 'thin'
 gem "paperclip", "~> 6.0.0"
 gem 'dropzonejs-rails'
 gem "figaro", "~>1.1.0"
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
+group :development, :test do
+  gem 'sqlite3'
+end
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
