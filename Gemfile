@@ -38,6 +38,7 @@ gem 'toastr-rails'
 gem 'omniauth-facebook'
 gem 'thin'
 gem "paperclip", "~> 6.0.0"
+gem 'aws-sdk', '~> 2.3'
 gem 'dropzonejs-rails'
 gem "figaro", "~>1.1.0"
 # Use Redis adapter to run Action Cable in production
