@@ -95,6 +95,7 @@ Rails.application.configure do
   #add ↑
 
   # peparclip
+  # ENV.~の記述でheroku configから値を持ってきている
   config.paperclip_defaults = {
     storage: :s3,
     s3_protocol: :https,
