@@ -9,16 +9,19 @@
 //
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
-//
-//= require jquery
+
+
+//　【学習】rails5.1からはjqueryの読みこみにrails-ujsを使用する
+
+//= require rails-ujs
+//　【削除】 require jquery
 // datepickerで追加↓
 //= require jquery-ui/widgets/datepicker
 //= require jquery-ui/i18n/datepicker-ja
-//= require jquery_ujs
+//  【削除】require jquery_ujs
 // datepickerで追加↑
 //= require dropzone
 //= require bootstrap-sprockets
 //= require toastr
-//= require rails-ujs
 //= require turbolinks
 //= require_tree .
