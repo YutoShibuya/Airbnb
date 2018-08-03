@@ -287,6 +287,7 @@ Devise.setup do |config|
                 # "cbd6a382740a5675a965745ea06b3a42",
                 ENV["facebook_app_secret"],
                 scope: 'email',
-                info_fields: 'email,name'
+                info_fields: 'email,name',
+                secure_image_url: true
 
 end
