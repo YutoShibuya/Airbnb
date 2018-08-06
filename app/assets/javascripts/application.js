@@ -15,13 +15,13 @@
 
 //= require rails-ujs
 //　【削除】 require jquery
-// datepickerで追加↓
-//= require jquery-ui/widgets/datepicker
-//= require jquery-ui/i18n/datepicker-ja
 //  【削除】require jquery_ujs
-// datepickerで追加↑
 //= require dropzone
 //= require bootstrap-sprockets
 //= require toastr
 //= require turbolinks
+// datepickerで追加↓
+//= require jquery-ui/widgets/datepicker
+//= require jquery-ui/i18n/datepicker-ja
+// datepickerで追加↑
 //= require_tree .

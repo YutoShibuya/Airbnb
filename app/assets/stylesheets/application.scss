@@ -4,9 +4,9 @@
 @import "dropzone/dropzone";
 // datepickerで追加↓
 @import "jquery-ui/datepicker";
-// @import "require_tree .";
-// @import "require_self";
 @import "jquery-bootstrap-datepicker";
+// @import "require_tree . ";
+// @import "require_self";
 
 .jumbotron {
     padding-top: 0px;
