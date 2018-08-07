@@ -13,9 +13,9 @@
 
 //　【学習】rails5.1からはjqueryの読みこみにrails-ujsを使用する
 
+//= require jquery
 //= require rails-ujs
-//　【削除】 require jquery
-//  【削除】require jquery_ujs
+//  【削除】require jquery_ujs⇒Rails5.0依然の記述
 //= require dropzone
 //= require bootstrap-sprockets
 //= require toastr
