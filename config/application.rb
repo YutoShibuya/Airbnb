@@ -16,6 +16,6 @@ module Airbnb
     # -- all .rb files in that directory are automatically loaded.
 
     # Herokuへのデプロイ時にassets:precompileがこけるので、この記述を試してみる
-    config.assets.initialize_on_precompile = false
+    # config.assets.initialize_on_precompile = false
   end
 end

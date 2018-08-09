@@ -6,7 +6,7 @@
 @import "jquery-ui/datepicker";
 @import "jquery-bootstrap-datepicker";
 // @import "require_tree . ";
-// @import "require_self";
+// @import "require_self"; ※これがなくても普通にapplication.scss自体が読み込まれる。この記述が必要なのはcssであってscssではない気がする
 
 .jumbotron {
     padding-top: 0px;

@@ -33,8 +33,11 @@ gem 'aws-sdk', '~> 3'
 gem 'dropzonejs-rails'
 gem "figaro", "~>1.1.0"
 gem "geocoder"
+# ↓precompileがこけるので、バージョンを固定のものに変更する
 gem "jquery-ui-rails"
-#stripeに接続する際、エラー「Unable to connect to Stripe. uninitialized constant StripeOauth::RestClie」が発生するため、追記
+# gem 'jquery-ui-rails'、 '5.0.5'
+# ↑
+#↓stripeに接続する際、エラー「Unable to connect to Stripe. uninitialized constant StripeOauth::RestClie」が発生するため、追記
 gem 'rest-client'
 #↑
 gem 'stripe'
